@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score,
 confusion_matrix
 
 #Read the data
-df=pd.read_csv('C:\\Users\\Jonas Gerken\\Desktop\\news.csv')
+df=pd.read_csv('C:\\Users\\Jonas Gerken\\Desktop\\Dataset.csv')
 
 #Get shape and head
 df.shape
