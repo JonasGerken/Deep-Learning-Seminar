@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.11)  5 JUL 2021 19:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.11)  5 JUL 2021 23:27
 entering extended mode
 **./Ausarbeitung.tex
 (Ausarbeitung.tex
@@ -697,68 +697,89 @@ Underfull \hbox (badness 2165) in paragraph at lines 161--162
 \OT1/ptm/m/n/10 durchgef[]uhrt wer-den. Grobk[]orniges Opin-ion Min-ing auf
  []
 
+<Requirements.png, id=23, 405.76593pt x 226.59656pt>
+File: Requirements.png Graphic file (type png)
+<use Requirements.png>
+Package pdftex.def Info: Requirements.png  used on input line 167.
+(pdftex.def)             Requested size: 284.52756pt x 158.89656pt.
+
+Overfull \hbox (32.52756pt too wide) in paragraph at lines 167--168
+ [][] 
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-<Dataset.png, id=26, 228.10219pt x 323.70938pt>
+<UseCase.png, id=24, 722.7pt x 515.67656pt>
+File: UseCase.png Graphic file (type png)
+<use UseCase.png>
+Package pdftex.def Info: UseCase.png  used on input line 174.
+(pdftex.def)             Requested size: 284.52756pt x 203.0251pt.
+
+Overfull \hbox (32.52756pt too wide) in paragraph at lines 174--175
+ [][] 
+ []
+
+[5 <./Requirements.png> <./UseCase.png>]
+<Dataset.png, id=30, 228.10219pt x 323.70938pt>
 File: Dataset.png Graphic file (type png)
 <use Dataset.png>
-Package pdftex.def Info: Dataset.png  used on input line 185.
-(pdftex.def)             Requested size: 228.10161pt x 323.70859pt.
+Package pdftex.def Info: Dataset.png  used on input line 198.
+(pdftex.def)             Requested size: 170.71652pt x 242.27762pt.
 
-Overfull \hbox (6.00262pt too wide) in paragraph at lines 200--201
+Overfull \hbox (6.00262pt too wide) in paragraph at lines 213--214
 [][][][][][][][][][][][] 
  []
 
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 2
-07.
+20.
 ("E:\Programms\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 207.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 220.
 
-Overfull \hbox (24.0028pt too wide) in paragraph at lines 226--227
+Overfull \hbox (24.0028pt too wide) in paragraph at lines 239--240
 [][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (12.00269pt too wide) in paragraph at lines 235--236
+Overfull \hbox (12.00269pt too wide) in paragraph at lines 248--249
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (54.00311pt too wide) in paragraph at lines 240--241
+Overfull \hbox (54.00311pt too wide) in paragraph at lines 253--254
 [][][][][][][][][][] 
  []
 
 
-Overfull \hbox (18.00275pt too wide) in paragraph at lines 241--242
+Overfull \hbox (18.00275pt too wide) in paragraph at lines 254--255
 [][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.00262pt too wide) in paragraph at lines 248--249
+Overfull \hbox (6.00262pt too wide) in paragraph at lines 261--262
 [][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (12.00269pt too wide) in paragraph at lines 250--251
+Overfull \hbox (12.00269pt too wide) in paragraph at lines 263--264
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (48.00305pt too wide) in paragraph at lines 253--254
+Overfull \hbox (48.00305pt too wide) in paragraph at lines 266--267
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
+[6 <./Dataset.png>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-57.
-("E:\Programms\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
+70.
+ ("E:\Programms\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [6 <./Dataset.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+)
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
 []\OT1/ptm/m/n/8 https://data-flair.training/blogs/advanced-python-project-dete
 cting-fake-
  []
@@ -774,25 +795,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[7
-
-] (Ausarbeitung.aux) ) 
+[7] (Ausarbeitung.aux) ) 
 Here is how much of TeX's memory you used:
- 6390 strings out of 492450
- 88214 string characters out of 3131581
- 181433 words of memory out of 3000000
- 10670 multiletter control sequences out of 15000+200000
+ 6404 strings out of 492450
+ 88656 string characters out of 3131581
+ 178433 words of memory out of 3000000
+ 10684 multiletter control sequences out of 15000+200000
  40352 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,11n,37p,1691b,1428s stack positions out of 5000i,500n,10000p,200000b,50000s
-{E:/Programms/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<E:/
-Programms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Programms/Mi
-KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><E:/Programms/MiKTeX 2.9/fonts/type1/
-urw/times/utmbi8a.pfb><E:/Programms/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb
-><E:/Programms/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ausarbeitung.pdf (7 pages, 248175 bytes).
+ 53i,11n,37p,1691b,1508s stack positions out of 5000i,500n,10000p,200000b,50000s
+{E:/Programms/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<E
+:/Programms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Programms/
+MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><E:/Programms/MiKTeX 2.9/fonts/type
+1/urw/times/utmbi8a.pfb><E:/Programms/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
+fb><E:/Programms/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Ausarbeitung.pdf (7 pages, 282149 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
