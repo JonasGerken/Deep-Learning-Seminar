@@ -161,6 +161,20 @@ Es wird allgemein angenommen, dass die semantischen Eigenschaften einzelner Wör
 Die Analyse selbst kann auf verschiedenen Ebenen durchgeführt werden. Grobkörniges Opinion Mining auf Dokumentebene zielt darauf ab, die allgemeinen Stimmungseigenschaften eines Textes zu bestimmen, indem es als positiv, negativ oder neutral klassifiziert wird, und wurde umfassend untersucht. Die feingranulare Sentimentanalyse beschäftigt sich mit Sätzen und Klauseln. Es kann die Ziele von Meinungen auf Entitäts- und Aspektebene identifizieren, den Fokus auf die automatische Klassifizierung der Meinungsintensität legen oder auf die feinkörnige Unterscheidung zwischen verschiedenen Arten von Emotionen. Diese Forschungsrichtung wurde beispielsweise von (Strapparava u. Mihalcea, 2007) oder (Bellegarda, 2010) untersucht, die zwischen den 6 universellen Emotionen unterschieden, wie sie von (Ekman, 1993) vorgeschlagen wurden: Wut, Ekel, Angst, Traurigkeit, Freude und Überraschung. Sowohl die niedrigen Übereinstimmungswerte zwischen den Annotatoren als auch die große Lücke zwischen den manuellen Annotationen und den berichteten Systemergebnissen zeigen, dass im Bereich der Emotionserkennung viel Raum für Verbesserungen besteht.\cite{b4}
 
 \section{Projekt}
+Am Anfang des Projekts habe ich eine Requirement Tabelle erstellt.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{Requirements}
+	\caption{Requirements}
+\end{figure}
+
+Danach habe ich die aus den Requirements ein Use Case erstellt.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{UseCase}
+	\caption{Use Case}
+\end{figure}
+
 Für das Projekt "Detect user emotions based on social networks" wird das Programm sklearn und jupyter lab verwendet. 
 Sklearn ist eine Software-Bibliothek zum maschinellen Lernen für die Programmiersprache Python. Mit diesem Befehl 
 pip install numpy pandas sklearn wird über die Windows Console sklearn installiert.
@@ -178,11 +192,10 @@ Der TfidfVectorizer konvertiert eine Sammlung von Rohdokumenten in eine Matrix v
 Was ist ein PassiveAggressiveClassifier?
 Passive Aggressive Algorithmen sind Online-Lernalgorithmen. Ein solcher Algorithmus bleibt für ein korrektes Klassifizierungsergebnis passiv und wird im Falle einer Fehlberechnung, Aktualisierung und Anpassung aggressiv. Im Gegensatz zu den meisten anderen Algorithmen konvergiert er nicht. Sein Zweck besteht darin, Aktualisierungen vorzunehmen, die den Verlust korrigieren und eine sehr geringe Änderung der Norm des Gewichtsvektors bewirken.
 
-\newpage
 In eine Exel Tabelle wird ein Dataset mit verschiedenen Texten (1.Spalte) und deren Zugehörige Emotion, wie happy, neutral und sad (2. Spalte) erstellt. Das Dataset wird in einer .csv Datei gespeichert.
 \begin{figure}[h]
 	\centering
-	\includegraphics{Dataset}
+	\includegraphics[width=6cm]{Dataset}
 	\caption{Dataset Beispiel}
 \end{figure}
 
