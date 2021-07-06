@@ -8,6 +8,7 @@
 \usepackage{textcomp}
 \usepackage{xcolor}
 \usepackage{listings}
+\usepackage{cite}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
@@ -42,10 +43,13 @@ Mit der schnellen Entwicklung der Plattformen für soziale Online-Netzwerke (OSN
 Viele veröffentlichte Inhalte in OSNs bieten eine gute Gelegenheit, die Emotionen der Benutzer zu untersuchen, und ermöglichen so die schnelle Entwicklung emotionsbewusster Anwendungen.
 Beispielsweise kann ein Aktivitätsmanagementsystem oder ein personalisiertes Werbesystem wertvolle Vorschläge machen oder auf emotionale Weise einen Zeitplan erstellen. Ein personalisiertes Empfehlungssystem kann personalisierte Produkte, Filme oder Songs entsprechend den aktuellen Emotionen des Einzelnen empfehlen. 
 Bei öffentlichen Notfällen wie Erdbeben oder Pandemien kann die Erkennung von Emotionen in Online Social Networks s zur Überwachung der öffentlichen Meinung verwendet werden, die die Entscheidungsfindung der Regierung unterstützt.\cite{b1}
+Weiter kann Emotionserkennung auch zur Suizidprävention verwendet werden.\cite{b6}
+
+
 
 \section{Emotionsmodelle}
 Hier werden kurz die Emotionsmodelle von Ekman und das OCC-Modell (Ortony/Clore/Collins) beschrieben. 
-Emotionsmodelle schreiben das notwendige Wissen vor, um Ereignisse einzuschätzen. Ekmans Emotionsmodell besteht aus Traurigkeit, Glück, Wut, Angst, Ekel und Überraschung. Es wurde in Systemen verwendet, die Gesichtsausdrücke im Zusammenhang mit diesen emotionalen Zuständen erkennen. In dieser Ausarbeitung wird auch textbasierend verwendet. Das OCC-Modell stellt Emotionen dar, die im Allgemeinen von einem Agenten ausgedrückt werden. Es umfasst 22 Emotionskategorien, die den Menschen im Allgemeinen modellieren sollen. Es basiert auf der Prämisse, dass Emotionen keine sprachlichen Dinge sind, aber der am leichtesten zugängliche nicht-phänomenale Zugang zu Menschen ist durch Sprache.
+Emotionsmodelle schreiben das notwendige Wissen vor, um Ereignisse einzuschätzen. Ekmans Emotionsmodell besteht aus Traurigkeit, Glück, Wut, Angst, Ekel und Überraschung. Es wurde in Systemen verwendet, die Gesichtsausdrücke im Zusammenhang mit diesen emotionalen Zuständen erkennen. In dieser Ausarbeitung wird auch textbasierend verwendet. Das OCC-Modell stellt Emotionen dar, die im Allgemeinen von einem Agenten ausgedrückt werden. Es umfasst 22 Emotionskategorien, die den Menschen im Allgemeinen modellieren sollen. Es basiert auf der Prämisse, dass Emotionen keine sprachlichen Dinge sind, aber der am leichtesten zugängliche nicht-phänomenale Zugang zu Menschen ist durch Sprache.\cite{b2}
 
 Der Hauptvorteil der Verwendung des OCC-Modells besteht darin, dass es eine Spezifikation für verschiedene Arten von Emotionen mit einer relativ kulturfreien Grundlage bietet. Dadurch entfällt die Notwendigkeit, Emotionen basierend auf bestimmten Wörtern zu studieren, sondern als Klassen von zugrunde liegenden Emotionstypen. Mit anderen Worten, es ist eine Theorie der Emotionen
 und keine Theorie der Sprache der Emotionen. Die sechs Emotionstypen in Ekmans Modell erscheinen im OCC-Modell, weil die im ersten Modell spezifizierten spezifischen Schlüsselwörter auf spezifische Emotionstypen abgebildet werden können, die unter Verwendung von Token (zB Glück, Traurigkeit, Wut, Ekel, Überraschung und Angst) im letzteren spezifiziert werden. Die OCC
@@ -55,6 +59,7 @@ Emotionstypen sind: Glücklich, Entschuldigung, Groll, Schadenfreude, Hoffnung, 
 Drei Ansätze dominieren derzeit die Aufgabe der Emotionserkennung; Keyword-basierter, lernbasierter und hybridbasierter Ansatz. Diese bestehen hauptsächlich aus syntaktischen (z. B. N-Grammen, Pos-Tags, Phrasenmustern) und semantischen (z. B. Synonymsätzen) ausgewählten Merkmalen, um Emotionen zu erkennen. Es kann beispielweise WordNet 1.6 verwendet werden, um
 Synonymsätze (d. h. Synsets gemäß der wordNet-Terminologie) aus Emotions-Seed-Wörtern zu extrahieren, die nach ihrem Wortarten-Tag (pos) gruppiert sind. Das wird verwendet, um ein affektives Lexikon zu erstellen, indem die Open Mind Common Sense Knowledge Base (OMCS) als wissensreiche linguistische Ressource verwendet wird, da wordNet allein eine allgemeine
 Bedeutung von Wörtern bereitstellt. In diesem Abschnitt wird jeder Ansatz mit Schwerpunkt auf deren Vor- und Nachteile kurz Beschrieben.\cite{b2}
+
 
 \subsection{Keyword based approach}
 Dieser Ansatz beruht vollständig auf dem Vorhandensein von Schlüsselwörtern und kann eine Vorverarbeitung mit einem Parser und einem Emotionswörterbuch beinhalten. Es ist einfach zu implementieren, intuitiv und unkompliziert, da es das Identifizieren von Wörtern beinhaltet, nach denen im Text gesucht werden soll. Dies wurde in Echtzeit-Chat-Systemen angewendet. Es ist jedoch domänenspezifisch, beruht auf dem Vorhandensein von Schlüsselwörtern für genaue Ergebnisse und erfordert eine Vorverarbeitung für verbesserte Genauigkeit.\cite{b2}
@@ -81,10 +86,10 @@ den Vorteil, dass es die hohen Kosten ausgleicht, die mit der Verwendung menschl
 Emotionsanalyse oder Sentimentanalyse haben in letzter Zeit immer mehr Forscher interessiert.
 Das Ziel der Sentimentanalyse war in der Regel die Vorhersage der Polarität (positiv, negativ oder neutral) eines Objekts, die bei der Analyse von Filmrezensionen, Produktansichten, Meinungsforschung usw. untersucht wurde. Emotionserkennung wird normalerweise als feinkörnige Sentimentanalyse angesehen. Die Emotionsanalyse kann mehr Kategorien umfassen als die
 Sentimentanalyse zur Polaritätsvorhersage. Über die Emotionserkennung im traditionellen menschlichen sozialen Netzwerk hat Fowler behauptet, dass sich Glück oder Depression von Individuum zu Individuum ausbreiten können, basierend auf klinischen Studien. Die Datenmenge, die von traditionellen menschlichen sozialen Netzwerken gesammelt werden, könnte jedoch sehr begrenzt sein. Dank der schnellen Entwicklung von sozialen Online-Medien wie Facebook, Twitter können viel mehr Daten für die Analyse von Forschern gewonnen werden. Moodcast beispielsweise leitete die Emotionen von Einzelpersonen ab, indem der soziale Einfluss, die zeitliche Korrelation und die Standortinformationen als Merkmale berücksichtigt wurden. Yanget hat die
-Kommentar Informationen und visuellen Merkmale von Bildern gemeinsam modelliert, um die Leistung bei der Erkennung von Emotionen von Personen anhand von Bildern weiter zu verbessern. Wanget schlug ein Emotionsvorhersagemodell vor, indem der emotionale Einfluss von Einzelpersonen in sozialen Online-Bildnetzwerken wie Flicker quantifiziert wurde. Zhanet al. schlug einen geräuschbewussten Klassifizierungsrahmen für das Crowdsourcing von Emotionserkennungsdatensätzen in OSNs vor. Tanget al. entwarf ein Emotionsübergangsmodell für versteckte Themen, um sowohl die Emotion auf Dokumentebene als auch die Emotion auf Satzebene zu erkennen.
+Kommentar Informationen und visuellen Merkmale von Bildern gemeinsam modelliert, um die Leistung bei der Erkennung von Emotionen von Personen anhand von Bildern weiter zu verbessern. Wanget schlug ein Emotionsvorhersagemodell vor, indem der emotionale Einfluss von Einzelpersonen in sozialen Online-Bildnetzwerken wie Flicker quantifiziert wurde. Zhanet al. schlug einen geräuschbewussten Klassifizierungsrahmen für das Crowdsourcing von Emotionserkennungsdatensätzen in OSNs vor. Tanget al. entwarf ein Emotionsübergangsmodell für versteckte Themen, um sowohl die Emotion auf Dokumentebene als auch die Emotion auf Satzebene zu erkennen.\cite{b1}
 
 Offensichtlich ist die Erkennung von Emotionen in OSNs wie Facebook oder Twitter immer ein heißes Thema. Im Allgemeinen wurden zwei Hauptmethoden für die Emotionserkennung in OSNs weit verbreitet: 1) lexikonbasierte Methode und 2) maschinelle Lernmethode. Das Ziel der lexikonbasierten Methode ist es, Emotionen aus Texten zu extrahieren, die auf einigen bekannten
-Wörterbüchern wie den LIWC-Wörterbüchern basieren. Es wurden sechs Arten von Stimmungszuständen (Depression, Anspannung, Vitalität, Wut, Verwirrung, Müdigkeit) aus Twitter-Texten unter Verwendung des LIWC-Wörterbuchs extrahiert und die Ergebnisse wurden mit mehreren wichtigen Ereignissen vergleichen. Die lexikonbasierten Methoden sind jedoch stark abhängig von der Quantität und Qualität der Wörter in den Wörterbüchern.
+Wörterbüchern wie den LIWC-Wörterbüchern basieren. Es wurden sechs Arten von Stimmungszuständen (Depression, Anspannung, Vitalität, Wut, Verwirrung, Müdigkeit) aus Twitter-Texten unter Verwendung des LIWC-Wörterbuchs extrahiert und die Ergebnisse wurden mit mehreren wichtigen Ereignissen vergleichen. Die lexikonbasierten Methoden sind jedoch stark abhängig von der Quantität und Qualität der Wörter in den Wörterbüchern.\cite{b1}
 \\ 
 Die auf maschinellem Lernen basierenden Methoden erkennen Emotionen normalerweise, indem sie Arten von Merkmalen aus Inhalten in OSNs extrahieren und dann Gefühle oder Emotionen unter Verwendung verschiedener Arten von Klassifizierungs- oder Regressionsmodellen vorhersagen. Im Detail analysierten Vo und Collier die Emotionen von Personen in Erdbebensituationen auf Twitter und schlugen dann Arten von Emotionskategorien für die Erdbebensituationen vor, darunter Unannehmlichkeiten, Ruhe, Angst, Traurigkeit, Erleichterung und Angst. Zudem wurden Emotionen auf Satzebene in Twitter analysiert und ein Klassifikator gebaut, um die Emotionsklasse der veröffentlichten Tweets zu bestimmen. Eine weietre Idee war das trainieren von überwachten Klassifikatoren, um die durch Twitter-Nachrichten ausgedrückten Emotionen automatisch zu erkennen und zu klassifizieren, wobei hochdimensionale und spärliche Merkmalsvektoren vermieden werden. Neben dem Training von Emotionsklassifikatoren wurde der Sprachstil des verwendeten Korpus zum Ausdruck von Emotionen analysiert. Deyuet al. erlernte Emotionsverteilungen aus Social-Media-Texten, indem die Beziehungen von Emotionen basierend auf dem Plutchik-Emotionsrad erfasst wurden. Die meiste vorhandene Literatur betrachtet jedoch nur die Erkennung einzelner Emotionen, wobei jedoch ignoriert wird, dass mehrere
 Emotionen koexistieren könnten. Anders als in der bestehenden Literatur wird  die Erkennung der multiplen Emotionen in OSNs betrachtet, was in der Vergangenheit nicht oft der Fall war.\cite{b1}
@@ -138,8 +143,7 @@ Diese Werke verwenden auch die merkmalsbasierte Klassifizierungsmethode für Eng
 Sentimentanalysen. Es wurde mit Funktionen experimentiert: zwei Tokenizer-Alternativen, Entfernung von Stoppwörtern, Frequenzbeschneidung, Sorgenlexikon,
 Humorlexikon und Emoticon; und Klassifikatoren: Maximale Entropie, Entscheidungsbaum und Naive Bayes, um die besten Funktionen und das beste Modell auszuwählen.
 Klassifizierung von Tweets zu Hurrikan betroffen oder unbeteiligten. Nagy
-und Stamberger kombinieren die verfügbaren englischen Sentiment-Daten bestehend aus SentiWordNet, Emoticons, AFNN zur Klassifizierung nach Bayesian
-Netzwerk.
+und Stamberger kombinieren die verfügbaren englischen Sentiment-Daten bestehend aus SentiWordNet, Emoticons, AFNN zur Klassifizierung nach Bayesian Netzwerk.\cite{b3}
 
 Viele englischsprachige Untersuchungen zur Emotionsanalyse klassifizieren Dokumente
 zu Ekmans 6 Grundemotionen: Überraschung, Glück, Wut, Angst, Ekel und Traurigkeit. Inzwischen basieren einige japanische Werke auf Nakamuras japanischem Emotionswörterbuch mit 10 Emotionstypen: Aufregung, Scham, Freude, Vorliebe, Abneigung, Trauer, Wut, Überraschung, Angst und
@@ -293,7 +297,7 @@ Im letzten Hauptabschnitt wurde dann ein Projekt zur Emotionserkennung durchgef�
 \bibitem{b4} Desmet, Bart and Hoste, Véronique, Emotion detection in suicide notes", Expert Systems with Applications,
 p. 6351–6358, 2013
 \bibitem{b5} https://data-flair.training/blogs/advanced-python-project-detecting-fake-news/
-
+\bibitem{b6} Lea Canales, Patricio Martínez Barco Emotion, "Detection from text A Survey", 2014
 \end{thebibliography}
 
 
