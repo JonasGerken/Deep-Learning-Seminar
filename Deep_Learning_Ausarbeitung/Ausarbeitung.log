@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.11)  6 JUL 2021 10:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.11)  6 JUL 2021 11:27
 entering extended mode
 **./Ausarbeitung.tex
 (Ausarbeitung.tex
 LaTeX2e <2019-10-01> patch level 2
-(IEEEtran.cls
+("E:\Programms\MiKTeX 2.9\tex/latex/ieeetran\IEEEtran.cls"
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -426,25 +426,25 @@ Package: listings 2019/09/10 1.8c (Carsten Heinz)
  (Ausarbeitung.aux)
 \openout1 = `Ausarbeitung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-3.
+4.
 ("E:\Programms\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    ... okay on input line 14.
 
 -- Lines per column: 56 (exact).
 ("E:\Programms\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
@@ -510,14 +510,14 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \c@lstlisting=\count125
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 24.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
 
 
 ("E:\Programms\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
 
 
 ("E:\Programms\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
@@ -529,29 +529,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <svm.png, id=9, 716.6775pt x 477.28313pt>
 File: svm.png Graphic file (type png)
 <use svm.png>
-Package pdftex.def Info: svm.png  used on input line 71.
+Package pdftex.def Info: svm.png  used on input line 76.
 (pdftex.def)             Requested size: 227.62204pt x 151.58304pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
 []\OT1/ptm/m/n/10 Dieser Ansatz besteht aus einer Kom-bi-na-tion der
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 77--79
+Underfull \hbox (badness 4316) in paragraph at lines 82--84
 \OT1/ptm/m/n/10 darin, dass er durch das Train-ing einer Kom-bi-na-tion
  []
 
 
-Underfull \hbox (badness 3579) in paragraph at lines 77--79
+Underfull \hbox (badness 3579) in paragraph at lines 82--84
 \OT1/ptm/m/n/10 von Klas-si-fika-toren und das Hinzuf[]ugen wis-sensre-icher
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
 \OT1/ptm/m/n/10 men-schlicher In-dexer f[]ur In-for-ma-tion-s-abr-u-fauf-gaben
  []
 
@@ -559,25 +559,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--79
 <Tweets.png, id=15, 697.8572pt x 159.59625pt>
 File: Tweets.png Graphic file (type png)
 <use Tweets.png>
-Package pdftex.def Info: Tweets.png  used on input line 93.
+Package pdftex.def Info: Tweets.png  used on input line 98.
 (pdftex.def)             Requested size: 256.0748pt x 58.56262pt.
 
-Overfull \hbox (4.0748pt too wide) in paragraph at lines 93--94
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 98--99
  [][] 
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 86--96
+Underfull \hbox (badness 2359) in paragraph at lines 91--101
 \OT1/ptm/m/n/10 De-tail analysierten Vo und Col-lier die Emo-tio-nen von
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 86--96
+Underfull \hbox (badness 1584) in paragraph at lines 91--101
 \OT1/ptm/m/n/10 von []uberwachten Klas-si-fika-toren, um die durch Twitter-
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 86--96
+Underfull \hbox (badness 2073) in paragraph at lines 91--101
 \OT1/ptm/m/n/10 nen und zu klas-si-fizieren, wobei hochdi-men-sion-ale und
  []
 
@@ -585,135 +585,135 @@ Underfull \hbox (badness 2073) in paragraph at lines 86--96
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 100--103
+Underfull \hbox (badness 2698) in paragraph at lines 105--108
 \OT1/ptm/m/n/10 be-trof-fe-nen Tweets k[]onnen in den Twitter-Daten durch
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 100--103
+Underfull \hbox (badness 1533) in paragraph at lines 105--108
 \OT1/ptm/m/n/10 ein vorgeschla-genes []uberwachtes Klas-si-fizierungsver-fahren
 
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 109--116
+Underfull \hbox (badness 1715) in paragraph at lines 114--121
 \OT1/ptm/m/n/10 , um Doku-mente wie Tweets und den Facebook-Status
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 109--116
+Underfull \hbox (badness 1430) in paragraph at lines 114--121
 \OT1/ptm/m/n/10 Emo-tio-nen en-thal-ten. Diese Meth-ode wird auf-grund des
  []
 
 [3 <./Tweets.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 122--133
+Underfull \hbox (badness 10000) in paragraph at lines 127--138
 []\OT1/ptm/m/n/10 Dieser em-pirische Ansatz wurde von den er-sten
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 122--133
+Underfull \hbox (badness 6284) in paragraph at lines 127--138
 \OT1/ptm/m/n/10 Mehrk-lassen-klas-si-fika-tion-sprob-lem ist. Dies beauf-sichti
 gt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--133
+Underfull \hbox (badness 10000) in paragraph at lines 127--138
 \OT1/ptm/m/n/10 Ler-nansatz gener-iert eine Funk-tion, die lin-guis-tis-che
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--133
+Underfull \hbox (badness 10000) in paragraph at lines 127--138
 
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 144--151
+Underfull \hbox (badness 2538) in paragraph at lines 148--155
 \OT1/ptm/m/n/10 japanis-chem Emo-tionsw[]orterbuch mit 10 Emo-tion-stypen:
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 158--159
+Underfull \hbox (badness 1527) in paragraph at lines 162--163
 \OT1/ptm/m/n/10 maschinellen Lern-tech-niken, die auf an-notierten Ko-r-pora
  []
 
 [4]
-Underfull \hbox (badness 1383) in paragraph at lines 160--161
+Underfull \hbox (badness 1383) in paragraph at lines 164--165
 \OT1/ptm/m/n/10 Eigen-schaften einzel-ner W[]orter gute Pr[]adiktoren f[]ur die
 
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 160--161
+Underfull \hbox (badness 2111) in paragraph at lines 164--165
 \OT1/ptm/m/n/10 Lexikon-basierte Sentiment-Mining-Systeme nutzen die in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 \OT1/ptm/m/n/10 mit Suizid-bezogenen Schl[]usselw[]ortern er-fol-gre-ich f[]ur
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 160--161
+Underfull \hbox (badness 2435) in paragraph at lines 164--165
 \OT1/ptm/m/n/10 falsch pos-i-tive Ergeb-nisse gemeldet wur-den (z. B. hat
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 160--161
+Underfull \hbox (badness 1735) in paragraph at lines 164--165
 \OT1/ptm/m/n/10 je-mand in Ihrer N[]ahe Selb-st-mord be-gan-gen? als In-halt
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 160--161
+Underfull \hbox (badness 1424) in paragraph at lines 164--165
 \OT1/ptm/m/n/10 einer selb-stm[]orderischen Per-son ange-se-hen wer-den). Der
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 160--161
+Underfull \hbox (badness 1783) in paragraph at lines 164--165
 \OT1/ptm/m/n/10 ver-schiedene Wortbe-deu-tun-gen usw. zu er-fassen, k[]onnen
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 160--161
+Underfull \hbox (badness 3219) in paragraph at lines 164--165
 \OT1/ptm/m/n/10 bere-it-stellen, wie z. B. Named-Entity-Erkenner f[]ur die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 \OT1/ptm/m/n/10 Wortsinn-Disambiguierungssysteme, Ko-ref-eren-zre-solver
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 160--161
+Underfull \hbox (badness 2932) in paragraph at lines 164--165
 \OT1/ptm/m/n/10 zur The-meniden-ti-fika-tion, Sys-teme zur Negations-Scope-
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 162--163
+Underfull \hbox (badness 4391) in paragraph at lines 166--167
 []\OT1/ptm/m/n/10 Die Anal-yse selbst kann auf ver-schiede-nen Ebe-nen
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 162--163
+Underfull \hbox (badness 2165) in paragraph at lines 166--167
 \OT1/ptm/m/n/10 durchgef[]uhrt wer-den. Grobk[]orniges Opin-ion Min-ing auf
  []
 
 <Requirements.png, id=23, 405.76593pt x 226.59656pt>
 File: Requirements.png Graphic file (type png)
 <use Requirements.png>
-Package pdftex.def Info: Requirements.png  used on input line 168.
+Package pdftex.def Info: Requirements.png  used on input line 172.
 (pdftex.def)             Requested size: 284.52756pt x 158.89656pt.
 
-Overfull \hbox (32.52756pt too wide) in paragraph at lines 168--169
+Overfull \hbox (32.52756pt too wide) in paragraph at lines 172--173
  [][] 
  []
 
 <UseCase.png, id=24, 722.7pt x 515.67656pt>
 File: UseCase.png Graphic file (type png)
 <use UseCase.png>
-Package pdftex.def Info: UseCase.png  used on input line 175.
+Package pdftex.def Info: UseCase.png  used on input line 179.
 (pdftex.def)             Requested size: 284.52756pt x 203.0251pt.
 
-Overfull \hbox (32.52756pt too wide) in paragraph at lines 175--176
+Overfull \hbox (32.52756pt too wide) in paragraph at lines 179--180
  [][] 
  []
 
@@ -721,65 +721,65 @@ Overfull \hbox (32.52756pt too wide) in paragraph at lines 175--176
 <Dataset.png, id=30, 228.10219pt x 323.70938pt>
 File: Dataset.png Graphic file (type png)
 <use Dataset.png>
-Package pdftex.def Info: Dataset.png  used on input line 199.
+Package pdftex.def Info: Dataset.png  used on input line 203.
 (pdftex.def)             Requested size: 170.71652pt x 242.27762pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (6.00262pt too wide) in paragraph at lines 214--215
+Overfull \hbox (6.00262pt too wide) in paragraph at lines 218--219
 [][][][][][][][][][][][] 
  []
 
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 2
-21.
+25.
 ("E:\Programms\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 221.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 225.
 
-Overfull \hbox (24.0028pt too wide) in paragraph at lines 240--241
+Overfull \hbox (24.0028pt too wide) in paragraph at lines 244--245
 [][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (12.00269pt too wide) in paragraph at lines 249--250
+Overfull \hbox (12.00269pt too wide) in paragraph at lines 253--254
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (54.00311pt too wide) in paragraph at lines 254--255
+Overfull \hbox (54.00311pt too wide) in paragraph at lines 258--259
 [][][][][][][][][][] 
  []
 
 
-Overfull \hbox (18.00275pt too wide) in paragraph at lines 255--256
+Overfull \hbox (18.00275pt too wide) in paragraph at lines 259--260
 [][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.00262pt too wide) in paragraph at lines 262--263
+Overfull \hbox (6.00262pt too wide) in paragraph at lines 266--267
 [][][][][][][][][][][][] 
  []
 
 [6 <./Dataset.png>]
-Overfull \hbox (12.00269pt too wide) in paragraph at lines 264--265
+Overfull \hbox (12.00269pt too wide) in paragraph at lines 268--269
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (48.00305pt too wide) in paragraph at lines 267--268
+Overfull \hbox (48.00305pt too wide) in paragraph at lines 271--272
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-71.
+75.
 ("E:\Programms\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 []\OT1/ptm/m/n/8 https://data-flair.training/blogs/advanced-python-project-dete
 cting-fake-
  []
@@ -797,10 +797,10 @@ Before submitting the final camera ready copy, remember to:
 
 [7] (Ausarbeitung.aux) ) 
 Here is how much of TeX's memory you used:
- 6404 strings out of 492450
- 88656 string characters out of 3131581
- 174433 words of memory out of 3000000
- 10684 multiletter control sequences out of 15000+200000
+ 6407 strings out of 492450
+ 88712 string characters out of 3131581
+ 174436 words of memory out of 3000000
+ 10686 multiletter control sequences out of 15000+200000
  40352 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,11n,37p,1691b,1512s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -809,7 +809,7 @@ Here is how much of TeX's memory you used:
 MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><E:/Programms/MiKTeX 2.9/fonts/type
 1/urw/times/utmbi8a.pfb><E:/Programms/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
 fb><E:/Programms/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ausarbeitung.pdf (7 pages, 282172 bytes).
+Output written on Ausarbeitung.pdf (7 pages, 282500 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
