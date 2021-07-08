@@ -5,3 +5,4 @@
 | FA | **2**  | muss erkennen ob der user glücklich ist.|✅|
 | FA | **3**  | muss erkennen ob der user traurig ist. |✅|
 | FA | **4**  | muss erkennen ob der user neutral ist. |✅|
+| FA | **5**  | muss eine Eingabefunktion besitzen. |✅|
